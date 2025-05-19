@@ -19,12 +19,12 @@ This is a UI test automation project built using **Selenium**, **Java**, and **T
 DemoWebShopAutomation/
 - ├── src/
 - │ ├── base/ # WebDriver setup, base classes
-│ ├── pages/ # Page Object Model classes
-│ ├── tests/
-│ │ └── ui/ # UI test classes
-├── pom.xml # Maven dependencies
-├── testng.xml # TestNG suite config
-└── README.md # Project documentation
+- │ ├── pages/ # Page Object Model classes
+- │ ├── tests/
+- │ │ └── ui/ # UI test classes
+- ├── pom.xml # Maven dependencies
+- ├── testng.xml # TestNG suite config
+- └── README.md # Project documentation
 
 ---
 
