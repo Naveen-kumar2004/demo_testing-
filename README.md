@@ -1,10 +1,10 @@
-# 🛍️ Demo Web Shop - UI Automation Framework
+# 🛍 Demo Web Shop - UI Automation Framework
 
 This is a UI test automation project built using **Selenium**, **Java**, and **TestNG** to test key user flows on the [Demo Web Shop](https://demowebshop.tricentis.com/) e-commerce platform.
 
 ---
 
-## ✅ Tech Stack
+##  Tech Stack
 
 - Java
 - Selenium WebDriver
@@ -15,7 +15,7 @@ This is a UI test automation project built using **Selenium**, **Java**, and **T
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 DemoWebShopAutomation/
 - ├── src/
 - │ ├── base/ # WebDriver setup, base classes
@@ -30,7 +30,7 @@ DemoWebShopAutomation/
 
 ---
 
-## 🚀 Features Covered (UI)
+##  Features Covered (UI)
 
 - Login (valid & invalid credentials)
 - Product search
@@ -43,7 +43,7 @@ DemoWebShopAutomation/
 
 ---
 
-## 🧪 UI Test Cases (Selenium + Java + TestNG)
+##  UI Test Cases (Selenium + Java + TestNG)
 
 ### 1. **Login Functionality**
 | Test Case ID | Description | Steps | Expected Result |
@@ -98,7 +98,7 @@ DemoWebShopAutomation/
 
 ---
 
-## 🧰 Prerequisites
+##  Prerequisites
 
 - JDK 8 or higher
 - Maven
@@ -107,7 +107,7 @@ DemoWebShopAutomation/
 
 ---
 
-## ▶️ How to Run
+## ▶ How to Run
 
 1. Clone the repo
 2. Run `mvn clean install`
@@ -115,7 +115,7 @@ DemoWebShopAutomation/
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Tests are designed using the Page Object Model (POM)
 - WebDriverManager handles browser drivers
