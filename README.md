@@ -54,6 +54,9 @@ DemoWebShopAutomation/
 | TC_UI_04 | Login with empty fields | Leave email and password fields blank → Click "Login" | Validation message: "Email is required", "Password is required" |
 | TC_UI_05 | 	Login with empty password | Enter email → Leave password blank → Click "Login" | Validation message: "Password is required" |
 | TC_UI_06 | Login with invalid email format | Enter malformed email (e.g., user@) → Click "Login" | Error message: "Wrong email" or HTML5 input validation or email format error |
+| TC_UI_07 | Login, then logout | Login successfully → Click “Log out” | Redirects to home page with “Log in” link shown again |
+| TC_UI_08 | “Remember Me” checkbox functionality | Check "Remember Me" → Login → Close and reopen browser | User remains logged in (if site supports session persistence)|
+| TC_UI_09 | 	Session timeout after inactivity | Login → Wait for session timeout period → Try any action | User should be redirected to login page (if implemented) |
 
 ---
 
