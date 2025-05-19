@@ -117,14 +117,36 @@ DemoWebShopAutomation/
 ### 2. **Product API**
 | Test Case ID | Description | Steps | Expected Result |
 |--------------|-------------|-----------------|-----------------|
-| TC_API_01 | Login with valid credentials | Send POST request to /login with valid email & password | Response code 200, token or success message returned |
+| TC_API_04 | Get all products | Send GET request to /products | Response 200, list of all products with details |
+| TC_API_05 | Get product by ID | Send GET request to /products/{id} | Response 200 with correct product data |
+| TC_API_06 | Get non-existent product | Send GET request to /products/invalid-id | Response 404 with message "Product not found" |
 
 ---
 
 ### 3. **Cart API**
-### 4. **Order API**
-### 5. **Error Handling & Security**
+| Test Case ID | Description | Steps | Expected Result |
+|--------------|-------------|-----------------|-----------------|
+| TC_API_07 | Add item to cart | Send POST request to /cart/add with product ID and quantity | Response 200, item added confirmation |
+| TC_API_08 | View cart | Send GET request to /cart | Response 200 with list of items in cart |
+| TC_API_09 | Remove item from cart | Send DELETE request to /cart/remove/{productId} | Response 200, confirmation of removal |
+| TC_API_10 | Empty cart | Send DELETE request to /cart/clear | Response 200, empty cart confirmation |
 
+---
+
+### 4. **Order API**
+| Test Case ID | Description | Steps | Expected Result |
+|--------------|-------------|-----------------|-----------------|
+| TC_API_11 | Place a new order | Send POST request to /orders with cart and billing info | Response 201, new order ID returned |
+| TC_API_12 | Get order by ID | Send GET request to /orders/{orderId} | Response 200, full order details returned |
+| TC_API_13 | Invalid order submission | Send POST to /orders with missing fields | Response 400, validation errors |
+
+---
+
+### 5. **Error Handling & Security**
+| Test Case ID | Description | Steps | Expected Result |
+|--------------|-------------|-----------------|-----------------|
+| TC_API_14 | Access protected route unauthenticated | Send GET to /orders without token | Response 401 Unauthorized |
+| TC_API_15 | Invalid method | Send PUT to /cart where only GET/POST allowed | Response 405 Method Not Allowed |
 
 ---
 
