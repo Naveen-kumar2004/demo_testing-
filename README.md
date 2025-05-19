@@ -1,4 +1,4 @@
-# 🛍 Demo Web Shop - UI Automation Framework
+#  Demo Web Shop - UI Automation Framework
 
 This is a UI test automation project built using **Selenium**, **Java**, and **TestNG** to test key user flows on the [Demo Web Shop](https://demowebshop.tricentis.com/) e-commerce platform.
 
@@ -63,10 +63,11 @@ DemoWebShopAutomation/
 ### 2. **Product Search & Filtering**
 | Test Case ID | Description | Steps | Expected Result |
 |--------------|-------------|-----------------|-----------------|
-| TC_UI_06 | Search by product keyword | | Matching products should be displayed |
-| TC_UI_07 | Apply category filter | | Only products from selected category shown |
-| TC_UI_08 | Filter by price range | | Only products within selected price range shown |
-| TC_UI_09 | Combine search and filters | | Products match all selected criteria |
+| TC_UI_10 | Search by product keyword | Enter "laptop" in the search bar → Click Search | Matching products containing "laptop" in name or description are listed |
+| TC_UI_11 | Apply category filter | 	Navigate to "Books" category → View listed products | Only products from selected category shown |
+| TC_UI_12 | Filter by price range | Select price range filter (e.g., $50 - $100) | Only products within selected price range shown |
+| TC_UI_13 | Combine search and filters | Search for “phone” → Apply category “Electronics” → Set price filter | Products matching all combined criteria are displayed |
+| TC_UI_14 | Search invalid keyword | Enter random term “xyz123” in search bar → Click Search | Message displayed: "No products were found that matched your criteria." |
 
 ---
 
