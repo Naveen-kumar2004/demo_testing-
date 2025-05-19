@@ -106,6 +106,17 @@ DemoWebShopAutomation/
 ##  UI Test Cases (Selenium + Java + TestNG)
 
 ### 1. **Login API**
+| Test Case ID | Description | Steps | Expected Result |
+|--------------|-------------|-----------------|-----------------|
+| TC_API_01 | Login with valid credentials | Send POST request to /login with valid email & password | Response code 200, token or success message returned |
+| TC_API_02 | Login with invalid credentials | Send POST request with wrong email/password | Response code 401, error message "Invalid credentials" |
+| TC_API_03 | Login with missing fields | Send POST request with missing password/email | Response code 400, validation error message |
+
+
+
+
+---
+
 ### 2. **Product API**
 ### 3. **Cart API**
 ### 4. **Order API**
