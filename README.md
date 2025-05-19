@@ -49,48 +49,48 @@ DemoWebShopAutomation/
 | Test Case ID | Description | Steps | Expected Result |
 |--------------|-------------|-----------------|-----------------|
 | TC_UI_01 | Login with valid credentials | Enter valid email and password → Click "Login" |Redirects to account page with "Log out" link |
-| TC_UI_02 | Login with invalid credentials | Error message: "Login was unsuccessful" |
-| TC_UI_03 | Login with empty fields | Validation error prompts required input |
-| TC_UI_04 | Password field left blank | Validation prompts for password |
-| TC_UI_05 | Invalid email format | Email format error shown |
+| TC_UI_02 | Login with invalid credentials | | Error message: "Login was unsuccessful" |
+| TC_UI_03 | Login with empty fields | | Validation error prompts required input |
+| TC_UI_04 | Password field left blank | | Validation prompts for password |
+| TC_UI_05 | Invalid email format | | Email format error shown |
 
 ---
 
 ### 2. **Product Search & Filtering**
-| Test Case ID | Description | Expected Result |
-|--------------|-------------|-----------------|
-| TC_UI_06 | Search by product keyword | Matching products should be displayed |
-| TC_UI_07 | Apply category filter | Only products from selected category shown |
-| TC_UI_08 | Filter by price range | Only products within selected price range shown |
-| TC_UI_09 | Combine search and filters | Products match all selected criteria |
+| Test Case ID | Description | Steps | Expected Result |
+|--------------|-------------|-----------------|-----------------|
+| TC_UI_06 | Search by product keyword | | Matching products should be displayed |
+| TC_UI_07 | Apply category filter | | Only products from selected category shown |
+| TC_UI_08 | Filter by price range | | Only products within selected price range shown |
+| TC_UI_09 | Combine search and filters | | Products match all selected criteria |
 
 ---
 
 ### 3. **Shopping Cart**
-| Test Case ID | Description | Expected Result |
-|--------------|-------------|-----------------|
-| TC_UI_10 | Add product to cart | Product added to cart, cart count updated |
-| TC_UI_11 | Update quantity in cart | Total price updates correctly |
-| TC_UI_12 | Remove item from cart | Product removed and total updated |
-| TC_UI_13 | Add multiple items to cart | All items correctly listed with combined total |
+| Test Case ID | Description | Steps | Expected Result |
+|--------------|-------------|-----------------|-----------------|
+| TC_UI_10 | Add product to cart | | Product added to cart, cart count updated |
+| TC_UI_11 | Update quantity in cart | | Total price updates correctly |
+| TC_UI_12 | Remove item from cart | | Product removed and total updated |
+| TC_UI_13 | Add multiple items to cart | | All items correctly listed with combined total |
 
 ---
 
 ### 4. **Checkout Process**
-| Test Case ID | Description | Expected Result |
-|--------------|-------------|-----------------|
-| TC_UI_14 | Fill billing & shipping info | Proceeds to payment step |
-| TC_UI_15 | Leave required fields blank | Validation error shown |
-| TC_UI_16 | Select payment method | Proceeds to confirm order |
-| TC_UI_17 | Confirm and place order | Redirects to confirmation page with order ID |
+| Test Case ID | Description | Steps | Expected Result |
+|--------------|-------------|-----------------|-----------------|
+| TC_UI_14 | Fill billing & shipping info | | Proceeds to payment step |
+| TC_UI_15 | Leave required fields blank | | Validation error shown |
+| TC_UI_16 | Select payment method | | Proceeds to confirm order |
+| TC_UI_17 | Confirm and place order |  | Redirects to confirmation page with order ID |
 
 ---
 
 ### 5. **Order Confirmation**
-| Test Case ID | Description | Expected Result |
-|--------------|-------------|-----------------|
-| TC_UI_18 | Verify order summary | All order details correctly displayed |
-| TC_UI_19 | Check order number | Unique order ID shown on confirmation page |
+| Test Case ID | Description | Steps | Expected Result |
+|--------------|-------------|-----------------|-----------------|
+| TC_UI_18 | Verify order summary | | All order details correctly displayed |
+| TC_UI_19 | Check order number | | Unique order ID shown on confirmation page |
 
 ---
 
