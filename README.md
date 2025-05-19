@@ -149,10 +149,32 @@ DemoWebShopAutomation/
 | TC_API_15 | Invalid method | Send PUT to /cart where only GET/POST allowed | Response 405 Method Not Allowed |
 
 ---
+
 # Intermediate Test Cases
+
 ## UI Testing 
-## API Nothing 
+
+### 1. **Data-Driven Login Tests**
+| Test Case ID | Description | Steps | Expected Result |
+|--------------|-------------|-----------------|-----------------|
+| TC_UI_01 | 	Login with valid credentials | Load from Excel → Enter credentials → Click Login | Redirect to user dashboard with “Log out” link | 
+| TC_UI_02 | 	Login with invalid credentials | Load from Excel → Enter incorrect password → Click Login | Show error message: “Login was unsuccessful.” | 
+| TC_UI_03 | Login with blank username or password | Submit login form with blank fields | Prompt with validation errors | 
+| TC_UI_04 | 	Login with special characters | Enter email with symbols → Submit | Show “invalid email format” error | 
+
+
 ---
+### 1. **Data-Driven Login Tests**
+### 2. **Product Search & Filter Automation**
+### 3. ** Add to Cart & Validation**
+### 3. ** Add to Cart & Validation**
+---
+
+## API Testing
+
+---
+
+
 ##  Prerequisites
 
 - JDK 8 or higher
