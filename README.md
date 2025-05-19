@@ -74,10 +74,11 @@ DemoWebShopAutomation/
 ### 3. **Shopping Cart**
 | Test Case ID | Description | Steps | Expected Result |
 |--------------|-------------|-----------------|-----------------|
-| TC_UI_10 | Add product to cart | | Product added to cart, cart count updated |
-| TC_UI_11 | Update quantity in cart | | Total price updates correctly |
-| TC_UI_12 | Remove item from cart | | Product removed and total updated |
-| TC_UI_13 | Add multiple items to cart | | All items correctly listed with combined total |
+| TC_UI_15 | Add product to cart | On product page, click "Add to Cart" | Product added to cart, cart count updated OR Confirmation message shown, cart item count increases |
+| TC_UI_16 | Update quantity in cart | Go to cart → Change quantity of an item → Click “Update” | Total price updates correctly  OR Total price recalculates based on new quantity |
+| TC_UI_17 | Remove item from cart | Click "Remove" next to a product in the cart | Product removed and total updated correctly |
+| TC_UI_18 | Add multiple items to cart | Add 3 different items → View cart | All products appear with individual and total pricing |
+| TC_UI_19 | Empty cart and validate | Remove all items → Check cart status | Message shown: "Your Shopping Cart is empty." |
 
 ---
 
