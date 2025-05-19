@@ -103,7 +103,7 @@ DemoWebShopAutomation/
 
 ---
 
-##  UI Test Cases (Selenium + Java + TestNG)
+##  API Test Cases
 
 ### 1. **Login API**
 | Test Case ID | Description | Steps | Expected Result |
