@@ -17,8 +17,8 @@ This is a UI test automation project built using **Selenium**, **Java**, and **T
 
 ## 📁 Project Structure
 DemoWebShopAutomation/
-├── src/
-│ ├── base/ # WebDriver setup, base classes
+- ├── src/
+- │ ├── base/ # WebDriver setup, base classes
 │ ├── pages/ # Page Object Model classes
 │ ├── tests/
 │ │ └── ui/ # UI test classes
