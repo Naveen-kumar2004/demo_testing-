@@ -103,6 +103,17 @@ DemoWebShopAutomation/
 
 ---
 
+##  UI Test Cases (Selenium + Java + TestNG)
+
+### 1. **Login API**
+### 2. **Product API**
+### 3. **Cart API**
+### 4. **Order API**
+### 5. **Error Handling & Security**
+
+
+---
+
 ##  Prerequisites
 
 - JDK 8 or higher
