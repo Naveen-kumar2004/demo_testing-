@@ -49,10 +49,11 @@ DemoWebShopAutomation/
 | Test Case ID | Description | Steps | Expected Result |
 |--------------|-------------|-----------------|-----------------|
 | TC_UI_01 | Login with valid credentials | Enter valid email and password → Click "Login" |Redirects to account page with "Log out" link |
-| TC_UI_02 | Login with invalid credentials | | Error message: "Login was unsuccessful" |
-| TC_UI_03 | Login with empty fields | | Validation error prompts required input |
-| TC_UI_04 | Password field left blank | | Validation prompts for password |
-| TC_UI_05 | Invalid email format | | Email format error shown |
+| TC_UI_02 | Login with invalid password |Enter valid email, incorrect password → Click "Login" | Error message displayed: "Login was unsuccessful. Please correct the errors and try again."" |
+| TC_UI_03 | Login with unregistered email | Enter an email not in system → Enter any password → Click "Login" | Same error as above, login not allowed |
+| TC_UI_04 | Login with empty fields | Leave email and password fields blank → Click "Login" | Validation message: "Email is required", "Password is required" |
+| TC_UI_05 | 	Login with empty password | Enter email → Leave password blank → Click "Login" | Validation message: "Password is required" |
+| TC_UI_06 | Login with invalid email format | Enter malformed email (e.g., user@) → Click "Login" | Error message: "Wrong email" or HTML5 input validation or email format error |
 
 ---
 
