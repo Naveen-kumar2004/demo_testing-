@@ -119,8 +119,6 @@ DemoWebShopAutomation/
 
 ---
 
-## 📄 License
 
-This project is open-source and free to use for educational or portfolio purposes.
 
 
