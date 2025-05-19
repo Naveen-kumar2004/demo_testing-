@@ -85,18 +85,23 @@ DemoWebShopAutomation/
 ### 4. **Checkout Process**
 | Test Case ID | Description | Steps | Expected Result |
 |--------------|-------------|-----------------|-----------------|
-| TC_UI_14 | Fill billing & shipping info | | Proceeds to payment step |
-| TC_UI_15 | Leave required fields blank | | Validation error shown |
-| TC_UI_16 | Select payment method | | Proceeds to confirm order |
-| TC_UI_17 | Confirm and place order |  | Redirects to confirmation page with order ID |
+| TC_UI_20 | Fill billing & shipping info | Proceed to checkout → Enter valid details | Navigates to payment method step |
+| TC_UI_21 | Leave required fields blank | Proceed without entering address/email | Validation error shown: "This field is required." |
+| TC_UI_22 | Select payment method | Choose "Credit Card" or "Cash on Delivery" | Proceeds to confirm order OR Navigates to confirm order step |
+| TC_UI_23 | Confirm and place order | Review details → Click "Confirm" | Redirected to order confirmation page with order number |
+| TC_UI_24 | Simulate invalid form inputs | Enter invalid ZIP code or characters in address | Appropriate field-level error messages shown |
 
 ---
 
 ### 5. **Order Confirmation**
 | Test Case ID | Description | Steps | Expected Result |
 |--------------|-------------|-----------------|-----------------|
-| TC_UI_18 | Verify order summary | | All order details correctly displayed |
-| TC_UI_19 | Check order number | | Unique order ID shown on confirmation page |
+| TC_UI_25 | Verify order summary | | All order details correctly displayed |
+| TC_UI_26 | Check order number | | Unique order ID shown on confirmation page |
+| TC_UI_27 | Check order number | | Unique order ID shown on confirmation page |
+| TC_UI_28 | Check order number | | Unique order ID shown on confirmation page |
+| TC_UI_29 | Check order number | | Unique order ID shown on confirmation page |
+
 
 ---
 
