@@ -96,12 +96,10 @@ DemoWebShopAutomation/
 ### 5. **Order Confirmation**
 | Test Case ID | Description | Steps | Expected Result |
 |--------------|-------------|-----------------|-----------------|
-| TC_UI_25 | Verify order summary | | All order details correctly displayed |
-| TC_UI_26 | Check order number | | Unique order ID shown on confirmation page |
-| TC_UI_27 | Check order number | | Unique order ID shown on confirmation page |
-| TC_UI_28 | Check order number | | Unique order ID shown on confirmation page |
-| TC_UI_29 | Check order number | | Unique order ID shown on confirmation page |
-
+| TC_UI_25 | Verify order summary | Complete order → Review confirmation page | All order details correctly displayed -Products, price, tax, shipping, and total all shown correctly |
+| TC_UI_26 | Check order number | Complete order → View confirmation screen | Unique order ID shown on confirmation page |
+| TC_UI_27 | View/download invoice (if available) | Click "Print invoice" or similar | 	Invoice view opens or PDF downloads successfully |
+| TC_UI_28 | Navigate back to home after order | Click “Continue” or “Home” after placing order | Redirects user to home or dashboard page |
 
 ---
 
