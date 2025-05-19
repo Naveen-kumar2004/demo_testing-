@@ -46,9 +46,9 @@ DemoWebShopAutomation/
 ## 🧪 UI Test Cases (Selenium + Java + TestNG)
 
 ### 1. **Login Functionality**
-| Test Case ID | Description | Expected Result |
-|--------------|-------------|-----------------|
-| TC_UI_01 | Login with valid credentials | Redirects to account page with "Log out" link |
+| Test Case ID | Description | Steps | Expected Result |
+|--------------|-------------|-----------------|-----------------|
+| TC_UI_01 | Login with valid credentials | Enter valid email and password → Click "Login" |Redirects to account page with "Log out" link |
 | TC_UI_02 | Login with invalid credentials | Error message: "Login was unsuccessful" |
 | TC_UI_03 | Login with empty fields | Validation error prompts required input |
 | TC_UI_04 | Password field left blank | Validation prompts for password |
