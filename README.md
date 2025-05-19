@@ -149,7 +149,10 @@ DemoWebShopAutomation/
 | TC_API_15 | Invalid method | Send PUT to /cart where only GET/POST allowed | Response 405 Method Not Allowed |
 
 ---
-
+# Intermediate Test Cases
+## UI Testing 
+## API Nothing 
+---
 ##  Prerequisites
 
 - JDK 8 or higher
